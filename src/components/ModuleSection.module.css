@@ -1,0 +1,64 @@
+.container {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.header:hover {
+  background-color: #f9fafb;
+}
+
+.title {
+  flex: 1;
+  font-weight: 500;
+  color: #111827;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.badges {
+  display: flex;
+  gap: 0.375rem;
+  margin-right: 0.75rem;
+}
+
+.chevron {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #9ca3af;
+  transition: transform 0.2s ease;
+}
+
+.chevronExpanded {
+  transform: rotate(90deg);
+}
+
+.content {
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+}
+
+.text {
+  color: #374151;
+  line-height: 1.625;
+  white-space: pre-wrap;
+}
+
+.placeholder {
+  color: #6b7280;
+  font-style: italic;
+}

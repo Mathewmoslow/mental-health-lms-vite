@@ -1,0 +1,375 @@
+{
+  "module_id": "M01",
+  "module_number": "01",
+  "module_title": "The Therapeutic Relationship and Communication",
+  "activities": {
+    "interactive": [
+      {
+        "id": "activity_1",
+        "type": "multiple_choice",
+        "title": "Therapeutic Communication",
+        "question": "What is the most appropriate therapeutic response to a patient saying 'Nobody understands what I'm going through'?",
+        "options": [
+          "That must feel very isolating. Can you tell me more about what you're experiencing?",
+          "I understand exactly how you feel.",
+          "You should try to be more positive.",
+          "Let's talk about something else."
+        ],
+        "correct": 0,
+        "feedback": "Validating feelings and encouraging expression is the most therapeutic approach."
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "quiz_1",
+        "title": "Phases of the Nurse-Client Relationship",
+        "section_id": "M01-S02",
+        "questions": [
+          {
+            "id": "q1",
+            "text": "During which phase does the nurse review the patient's chart and reflect on personal biases before meeting the client?",
+            "subsection_id": "M01-S02-SS01",
+            "options": [
+              "Orientation phase",
+              "Pre-orientation phase",
+              "Working phase",
+              "Termination phase"
+            ],
+            "correct": 1,
+            "rationale": "The pre-orientation phase occurs before the nurse meets the client and involves preparation, including chart review and self-reflection on biases."
+          },
+          {
+            "id": "q2",
+            "text": "A patient says 'I'm scared to not talk to you every day after discharge.' This is most likely occurring in which phase?",
+            "subsection_id": "M01-S02-SS04",
+            "options": [
+              "Pre-orientation phase",
+              "Orientation phase",
+              "Working phase",
+              "Termination phase"
+            ],
+            "correct": 3,
+            "rationale": "Fear about ending the relationship is a common response during the termination phase, when the therapeutic relationship is concluding."
+          },
+          {
+            "id": "q3",
+            "text": "Which task is NOT typically part of the orientation phase?",
+            "options": [
+              "Building trust and rapport",
+              "Setting boundaries",
+              "Teaching coping skills",
+              "Establishing a contract"
+            ],
+            "correct": 2,
+            "rationale": "Teaching coping skills occurs in the working phase. The orientation phase focuses on establishing trust, boundaries, and mutual agreements."
+          }
+        ]
+      },
+      {
+        "id": "quiz_2",
+        "title": "Therapeutic Communication Techniques",
+        "section_id": "M01-S04",
+        "questions": [
+          {
+            "id": "q1",
+            "text": "A patient says 'I just feel so worthless.' Which response demonstrates active listening?",
+            "options": [
+              "Don't worry, everything will be fine.",
+              "You're feeling as if you have no value.",
+              "Why do you feel that way?",
+              "Many people feel this way sometimes."
+            ],
+            "correct": 1,
+            "rationale": "Restating the patient's message shows active listening and understanding without minimizing or interrogating."
+          },
+          {
+            "id": "q2",
+            "text": "Which communication technique should be AVOIDED in therapeutic relationships?",
+            "options": [
+              "Offering self",
+              "Using silence",
+              "Giving personal advice",
+              "Clarification"
+            ],
+            "correct": 2,
+            "rationale": "Giving personal advice is nontherapeutic as it takes decision-making away from the patient and inserts the nurse's values."
+          },
+          {
+            "id": "q3",
+            "text": "When a patient with psychosis says 'The FBI is watching me,' which response is most therapeutic?",
+            "options": [
+              "That's not true, there's no FBI here.",
+              "Why do you think the FBI is watching you?",
+              "I understand you're worried about that. You're safe here.",
+              "Don't be silly, that's just your illness talking."
+            ],
+            "correct": 2,
+            "rationale": "This response acknowledges the patient's feelings while gently presenting reality without arguing or challenging their experience."
+          }
+        ]
+      }
+    ],
+    "case_studies": [
+      {
+        "id": "case_1",
+        "title": "Managing Transference and Countertransference",
+        "section_id": "M01-S03",
+        "scenario": "Sarah, a 28-year-old patient with borderline personality disorder, has been on the unit for a week. She tells her nurse, 'You remind me so much of my mother who abandoned me. I know you're going to leave me too, just like everyone else does.'",
+        "questions": [
+          {
+            "id": "cs1_q1",
+            "text": "What type of phenomenon is Sarah experiencing?",
+            "subsection_id": "M01-S03-SS01",
+            "options": [
+              "Countertransference",
+              "Transference",
+              "Resistance",
+              "Projection"
+            ],
+            "correct": 1,
+            "rationale": "Sarah is experiencing transference - projecting feelings about her mother onto the nurse based on past relationships."
+          },
+          {
+            "id": "cs1_q2",
+            "text": "What is the most therapeutic initial response?",
+            "options": [
+              "I'm not your mother, and I won't abandon you.",
+              "Why do you think I'm like your mother?",
+              "I hear that you're worried about being left. I'll be your nurse during your stay here.",
+              "You need to stop comparing me to your mother."
+            ],
+            "correct": 2,
+            "rationale": "This response acknowledges her feelings while maintaining professional boundaries and providing reassurance within the therapeutic framework."
+          },
+          {
+            "id": "cs1_q3",
+            "text": "If the nurse feels an overwhelming urge to 'rescue' Sarah because she reminds the nurse of her younger sister, this is:",
+            "subsection_id": "M01-S03-SS02",
+            "options": [
+              "Normal empathy",
+              "Transference",
+              "Countertransference",
+              "Therapeutic engagement"
+            ],
+            "correct": 2,
+            "rationale": "The nurse's emotional reaction based on personal experiences is countertransference and needs to be recognized and managed."
+          }
+        ]
+      },
+      {
+        "id": "case_2",
+        "title": "Cultural Considerations in Communication",
+        "section_id": "M01-S06",
+        "scenario": "Mr. Ahmad, a 45-year-old man from a Middle Eastern background, is admitted with severe depression. He avoids eye contact, speaks very little, and his wife answers most questions for him. The nurse notices he seems uncomfortable with the female staff.",
+        "questions": [
+          {
+            "id": "cs2_q1",
+            "text": "What should be the nurse's first culturally sensitive action?",
+            "options": [
+              "Insist that Mr. Ahmad make eye contact to assess his mental state",
+              "Ask the wife to leave so Mr. Ahmad can speak freely",
+              "Respect his communication style and ask about cultural preferences",
+              "Document that he is uncooperative with assessment"
+            ],
+            "correct": 2,
+            "rationale": "Asking about cultural preferences shows respect and helps provide culturally competent care without making assumptions."
+          },
+          {
+            "id": "cs2_q2",
+            "text": "How should the nurse address the eye contact issue?",
+            "options": [
+              "Chart that the patient has poor eye contact indicating severe depression",
+              "Understand that limited eye contact may be culturally appropriate",
+              "Require eye contact for proper therapeutic communication",
+              "Ask the wife why he won't look at staff"
+            ],
+            "correct": 1,
+            "rationale": "In many Middle Eastern cultures, limited eye contact with opposite gender or authority figures is a sign of respect, not pathology."
+          }
+        ]
+      }
+    ],
+    "simulations": [
+      {
+        "id": "sim_1",
+        "type": "communication_response",
+        "title": "Therapeutic Response Practice",
+        "section_id": "M01-S04",
+        "instructions": "Choose the most therapeutic response for each patient statement.",
+        "scenarios": [
+          {
+            "id": "s1",
+            "patient_statement": "Nobody cares about me. I might as well be dead.",
+            "responses": [
+              {
+                "text": "Don't say that. Lots of people care about you.",
+                "therapeutic": false,
+                "feedback": "This minimizes the patient's feelings and offers false reassurance."
+              },
+              {
+                "text": "You're feeling like life isn't worth living. Can you tell me more about these thoughts?",
+                "therapeutic": true,
+                "feedback": "This acknowledges feelings and explores suicidal ideation safely."
+              },
+              {
+                "text": "Why do you think nobody cares?",
+                "therapeutic": false,
+                "feedback": "Why questions can feel accusatory and put patients on the defensive."
+              }
+            ]
+          },
+          {
+            "id": "s2",
+            "patient_statement": "You're the best nurse here. The others don't understand me like you do.",
+            "responses": [
+              {
+                "text": "Thank you, I try my best to help all my patients.",
+                "therapeutic": false,
+                "feedback": "This accepts the idealization rather than exploring it therapeutically."
+              },
+              {
+                "text": "I appreciate that you feel understood. Our whole team is here to support you.",
+                "therapeutic": true,
+                "feedback": "This acknowledges feelings while reinforcing the team approach and professional boundaries."
+              },
+              {
+                "text": "You shouldn't compare nurses. We all care about you.",
+                "therapeutic": false,
+                "feedback": "This is defensive and dismissive of the patient's statement."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "assessment": {
+      "id": "chapter_assessment",
+      "title": "Module 01 Comprehensive Assessment",
+      "section_id": "M01",
+      "passing_score": 80,
+      "questions": [
+        {
+          "id": "a1",
+          "text": "The primary difference between therapeutic and social relationships is:",
+          "options": [
+            "Therapeutic relationships can include physical intimacy",
+            "Social relationships have defined time limits",
+            "Therapeutic relationships focus only on the patient's needs",
+            "Social relationships require professional boundaries"
+          ],
+          "correct": 2,
+          "points": 1
+        },
+        {
+          "id": "a2",
+          "text": "During which phase of the therapeutic relationship would a nurse teach coping strategies?",
+          "options": [
+            "Pre-orientation",
+            "Orientation",
+            "Working",
+            "Termination"
+          ],
+          "correct": 2,
+          "points": 1
+        },
+        {
+          "id": "a3",
+          "text": "A patient becomes angry when the nurse enforces unit rules, saying 'You're just like my controlling father!' This is an example of:",
+          "options": [
+            "Countertransference",
+            "Transference",
+            "Boundary testing",
+            "Therapeutic communication"
+          ],
+          "correct": 1,
+          "points": 1
+        },
+        {
+          "id": "a4",
+          "text": "Which statement demonstrates empathy rather than sympathy?",
+          "options": [
+            "I feel so sorry for what you're going through.",
+            "I understand this is very difficult for you.",
+            "The same thing happened to me once.",
+            "You poor thing, that must be awful."
+          ],
+          "correct": 1,
+          "points": 1
+        },
+        {
+          "id": "a5",
+          "text": "The BEST response to a patient who asks 'Why did this happen to me?' is:",
+          "options": [
+            "These things happen for a reason.",
+            "Why do you think it happened?",
+            "Tell me what you mean by 'this.'",
+            "That's a difficult question. What thoughts do you have about it?"
+          ],
+          "correct": 3,
+          "points": 1
+        },
+        {
+          "id": "a6",
+          "text": "Which communication technique involves restating the patient's message in the nurse's own words?",
+          "options": [
+            "Reflection",
+            "Clarification",
+            "Paraphrasing",
+            "Focusing"
+          ],
+          "correct": 2,
+          "points": 1
+        },
+        {
+          "id": "a7",
+          "text": "A nurse who avoids a patient because they remind the nurse of an abusive ex-partner is experiencing:",
+          "options": [
+            "Transference",
+            "Countertransference",
+            "Professional burnout",
+            "Compassion fatigue"
+          ],
+          "correct": 1,
+          "points": 1
+        },
+        {
+          "id": "a8",
+          "text": "When communicating with a patient from a culture where mental illness is stigmatized, the nurse should:",
+          "section_id": "M01-S06",
+          "options": [
+            "Immediately educate them that mental illness is a medical condition",
+            "Avoid discussing their cultural beliefs",
+            "Respect their perspective and work within their cultural framework",
+            "Insist they adopt Western views of mental health"
+          ],
+          "correct": 2,
+          "points": 1
+        },
+        {
+          "id": "a9",
+          "text": "Therapeutic use of silence is beneficial because it:",
+          "options": [
+            "Shows the nurse is not interested",
+            "Allows the patient time to reflect and continue sharing",
+            "Demonstrates the nurse's discomfort",
+            "Ends the conversation more quickly"
+          ],
+          "correct": 1,
+          "points": 1
+        },
+        {
+          "id": "a10",
+          "text": "Which response would be considered false reassurance?",
+          "options": [
+            "Tell me more about your concerns.",
+            "Everything will be fine, don't worry.",
+            "This must be difficult for you.",
+            "What are you most worried about?"
+          ],
+          "correct": 1,
+          "points": 1
+        }
+      ]
+    }
+  }
+}

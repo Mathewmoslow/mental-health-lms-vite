@@ -2,14 +2,19 @@ import { useState, useContext, useEffect } from 'react';
 import { ClipboardList, Trophy, CheckCircle } from 'lucide-react';
 import LearningContext from '../context/LearningContext.jsx';
 
-const ChapterAssessment = ({ chapter }) => {
+const ChapterAssessment = ({ chapter, assessmentData }) => {
   const [quizStarted, setQuizStarted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
   const { progress, setProgress } = useContext(LearningContext);
 
-  // Use the progress variable to check previous completion status
+  // Use provided assessment data or fallback to generated questions
+  const questions = assessmentData?.questions || [];
+  const passingScore = assessmentData?.passing_score || 70;
+  const assessmentTitle = assessmentData?.title || `${chapter.module_title} Assessment`;
+
+  // Check previous completion status
   useEffect(() => {
     const chapterProgress = progress[`chapter_${chapter.module_number}`];
     if (chapterProgress?.completed) {
@@ -17,44 +22,13 @@ const ChapterAssessment = ({ chapter }) => {
     }
   }, [progress, chapter.module_number]);
 
-  // Generate questions based on chapter content
-  const generateQuestions = () => {
-    // In a real implementation, these would be proper questions related to the chapter
-    return [
-      {
-        id: 1,
-        question: `What is the primary focus of ${chapter.module_title}?`,
-        options: [
-          "Patient comfort and care",
-          "Professional development",
-          chapter.key_focus_areas?.[0] || "Understanding key concepts",
-          "Documentation procedures"
-        ],
-        correct: 2 // Index of the correct answer (key_focus_areas[0])
-      },
-      {
-        id: 2,
-        question: `Which of the following is a key term in ${chapter.module_title}?`,
-        options: [
-          chapter.key_terms?.[0] || "Therapeutic Communication",
-          "Hospital Policy",
-          "Insurance Coverage",
-          "Medical Equipment"
-        ],
-        correct: 0 // Index of the correct answer (key_terms[0])
-      }
-    ];
-  };
-
-  const questions = generateQuestions();
-
   const handleAnswer = (questionId, answerIndex) => {
     setAnswers(prev => ({ ...prev, [questionId]: answerIndex }));
   };
 
   const calculateScore = () => {
     const correct = questions.filter(q => answers[q.id] === q.correct).length;
-    return (correct / questions.length) * 100;
+    return questions.length > 0 ? (correct / questions.length) * 100 : 0;
   };
 
   const handleCompleteAssessment = () => {
@@ -63,7 +37,7 @@ const ChapterAssessment = ({ chapter }) => {
     setProgress(prev => ({
       ...prev,
       [`chapter_${chapter.module_number}`]: { 
-        completed: score >= 70, 
+        completed: score >= passingScore, 
         score: score,
         completedAt: new Date().toISOString()
       }
@@ -72,6 +46,19 @@ const ChapterAssessment = ({ chapter }) => {
     setShowResults(true);
   };
 
+  // If no questions available, show message
+  if (!questions || questions.length === 0) {
+    return (
+      <div className="text-center py-12">
+        <ClipboardList className="w-16 h-16 text-gray-400 mx-auto mb-4" />
+        <h3 className="text-xl font-semibold mb-2">Assessment Coming Soon</h3>
+        <p className="text-gray-600">
+          The assessment for this chapter is being prepared.
+        </p>
+      </div>
+    );
+  }
+
   if (!quizStarted) {
     // Check if the chapter has already been completed
     const isCompleted = progress[`chapter_${chapter.module_number}`]?.completed;
@@ -79,15 +66,18 @@ const ChapterAssessment = ({ chapter }) => {
     return (
       <div className="text-center py-12">
         <ClipboardList className="w-16 h-16 text-blue-600 mx-auto mb-4" />
-        <h3 className="text-xl font-semibold mb-2">Chapter Assessment</h3>
+        <h3 className="text-xl font-semibold mb-2">{assessmentTitle}</h3>
         {isCompleted && (
-          <div className="mb-3 p-3 bg-green-100 text-green-800 rounded-md inline-flex items-center">
+          <div className="mb-4 p-3 bg-green-100 text-green-800 rounded-md inline-flex items-center">
             <CheckCircle className="w-5 h-5 mr-2" />
             You've already passed this assessment with a score of {progress[`chapter_${chapter.module_number}`].score}%
           </div>
         )}
-        <p className="text-gray-600 mb-6">
+        <p className="text-gray-600 mb-2">
           Test your knowledge with {questions.length} questions
+        </p>
+        <p className="text-sm text-gray-500 mb-6">
+          Passing score: {passingScore}%
         </p>
         <button
           onClick={() => setQuizStarted(true)}
@@ -101,15 +91,25 @@ const ChapterAssessment = ({ chapter }) => {
 
   if (showResults) {
     const score = calculateScore();
-    const passed = score >= 70;
+    const passed = score >= passingScore;
     
     return (
       <div className="text-center py-12">
         <Trophy className={`w-16 h-16 ${passed ? 'text-yellow-500' : 'text-gray-400'} mx-auto mb-4`} />
         <h3 className="text-2xl font-bold mb-2">Assessment Complete!</h3>
-        <p className="text-3xl font-bold text-blue-600 mb-4">{score}%</p>
+        <p className="text-3xl font-bold text-blue-600 mb-4">{score.toFixed(0)}%</p>
         <div className={`mb-6 p-4 rounded-lg ${passed ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
-          {passed ? 'Great job! You passed the assessment.' : 'Keep studying and try again.'}
+          {passed ? (
+            <>
+              <CheckCircle className="w-6 h-6 inline mr-2" />
+              Congratulations! You passed the assessment.
+            </>
+          ) : (
+            `You need ${passingScore}% to pass. Keep studying and try again.`
+          )}
+        </div>
+        <div className="text-sm text-gray-600 mb-6">
+          You got {questions.filter(q => answers[q.id] === q.correct).length} out of {questions.length} questions correct
         </div>
         <div className="flex justify-center gap-4">
           <button
@@ -123,12 +123,24 @@ const ChapterAssessment = ({ chapter }) => {
           >
             Retake Assessment
           </button>
+          <button
+            onClick={() => {
+              setQuizStarted(false);
+              setCurrentQuestion(0);
+              setAnswers({});
+              setShowResults(false);
+            }}
+            className="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 shadow-md"
+          >
+            Review Questions
+          </button>
         </div>
       </div>
     );
   }
 
   const question = questions[currentQuestion];
+  const allAnswersProvided = Object.keys(answers).length >= questions.length;
 
   return (
     <div>
@@ -150,7 +162,7 @@ const ChapterAssessment = ({ chapter }) => {
           </div>
         </div>
         
-        <h4 className="text-lg font-medium mb-4">{question.question}</h4>
+        <h4 className="text-lg font-medium mb-4">{question.text}</h4>
         
         <div className="space-y-3">
           {question.options.map((option, idx) => (
@@ -189,7 +201,7 @@ const ChapterAssessment = ({ chapter }) => {
         <button
           onClick={() => setCurrentQuestion(Math.max(0, currentQuestion - 1))}
           disabled={currentQuestion === 0}
-          className="px-4 py-2 text-gray-600 hover:text-gray-800 disabled:opacity-50"
+          className="px-4 py-2 text-gray-600 hover:text-gray-800 disabled:opacity-50 disabled:cursor-not-allowed"
         >
           Previous
         </button>
@@ -197,16 +209,16 @@ const ChapterAssessment = ({ chapter }) => {
         {currentQuestion === questions.length - 1 ? (
           <button
             onClick={handleCompleteAssessment}
-            disabled={Object.keys(answers).length < questions.length}
-            className="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50"
+            disabled={!allAnswersProvided}
+            className="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Submit Assessment
           </button>
         ) : (
           <button
             onClick={() => setCurrentQuestion(currentQuestion + 1)}
-            disabled={!answers[question.id] && answers[question.id] !== 0}
-            className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50"
+            disabled={answers[question.id] === undefined}
+            className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Next
           </button>

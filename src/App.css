@@ -1,0 +1,218 @@
+/* Header Link Buttons */
+.header-link {
+  background: none;
+  border: none;
+  color: var(--gray-600);
+  text-decoration: none;
+  font-size: var(--text-sm);
+  font-weight: 500;
+  transition: color 0.2s;
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.header-link:hover {
+  color: var(--gray-900);
+  background-color: var(--gray-50);
+  text-decoration: none;
+}
+
+.header-link.active {
+  color: var(--primary-blue);
+  background-color: var(--primary-blue-light);
+}
+
+.header-link:focus-visible {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+/* Grid utilities for new components */
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 768px) {
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.gap-6 {
+  gap: var(--space-6);
+}
+
+.gap-8 {
+  gap: var(--space-8);
+}
+
+/* Additional spacing utilities */
+.space-y-3 > * + * {
+  margin-top: var(--space-3);
+}
+
+.space-y-4 > * + * {
+  margin-top: var(--space-4);
+}
+
+/* Loading animation */
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Disabled state for buttons */
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+
+.disabled\:cursor-not-allowed:disabled {
+  cursor: not-allowed;
+}
+
+/* Progress and Resources specific styles */
+.card {
+  background-color: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: var(--space-6);
+  margin-bottom: var(--space-4);
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+/* Status indicators */
+.bg-green-50 {
+  background-color: #f0fdf4;
+}
+
+.text-green-800 {
+  color: #166534;
+}
+
+.bg-blue-50 {
+  background-color: #eff6ff;
+}
+
+.text-blue-800 {
+  color: #1e40af;
+}
+
+.bg-red-50 {
+  background-color: #fef2f2;
+}
+
+.text-red-800 {
+  color: #991b1b;
+}
+
+.bg-yellow-50 {
+  background-color: #fefce8;
+}
+
+.text-yellow-800 {
+  color: #854d0e;
+}
+
+.bg-purple-50 {
+  background-color: #faf5ff;
+}
+
+.text-purple-800 {
+  color: #6b21a8;
+}
+
+.bg-orange-50 {
+  background-color: #fff7ed;
+}
+
+.text-orange-800 {
+  color: #9a3412;
+}
+
+.bg-teal-50 {
+  background-color: #f0fdfa;
+}
+
+.text-teal-800 {
+  color: #115e59;
+}
+
+/* Color utilities for icons */
+.text-blue-600 {
+  color: var(--primary-blue);
+}
+
+.text-green-600 {
+  color: var(--success-green);
+}
+
+.text-red-600 {
+  color: var(--danger-red);
+}
+
+.text-yellow-500 {
+  color: var(--warning-yellow);
+}
+
+.text-purple-600 {
+  color: var(--purple);
+}
+
+.text-orange-600 {
+  color: #ea580c;
+}
+
+.text-teal-600 {
+  color: #0d9488;
+}
+
+/* Responsive design helpers */
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.rounded-full {
+  border-radius: var(--radius-full);
+}
+
+.rounded-lg {
+  border-radius: var(--radius-lg);
+}
+
+/* Border utilities */
+.border {
+  border-width: 1px;
+}
+
+.border-yellow-200 {
+  border-color: #fde047;
+}
+
+/* Transition utilities */
+.transition-colors {
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}

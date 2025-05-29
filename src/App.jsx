@@ -58,61 +58,33 @@ function App() {
 
   return (
     <LearningContextProvider>
-      <Router>
-        <div className="app">
-          <Header />
-          <main className="content">
-            <Routes>
-              <Route path="/" element={<Navigate to="/dashboard" replace />} />
-              <Route 
-                path="/dashboard" 
-                element={
-                  loading ? (
-                    <div className="loading">
-                      <p>Loading chapter content...</p>
-                    </div>
-                  ) : chapters.length === 0 ? (
-                    <div className="error">
-                      <p>No chapters found. Please check /data directory.</p>
-                    </div>
-                  ) : currentChapter ? (
-                    <ChapterViewer 
-                      chapter={currentChapter} 
-                      onBack={() => setCurrentChapter(null)} 
-                    />
-                  ) : (
-                    <Dashboard 
-                      chapters={chapters} 
-                      onSelectChapter={setCurrentChapter} 
-                      loading={loading}
-                    />
-                  )
-                } 
-              />
-              <Route 
-                path="/progress" 
-                element={
-                  <div className="dashboard-container">
-                    <h1>Progress</h1>
-                    <p>Progress tracking coming soon...</p>
-                  </div>
-                } 
-              />
-              <Route 
-                path="/resources" 
-                element={
-                  <div className="dashboard-container">
-                    <h1>Resources</h1>
-                    <p>Learning resources coming soon...</p>
-                  </div>
-                } 
-              />
-            </Routes>
-          </main>
+      <div className="app">
+        <Header />
+        <div className="content">
+          {loading ? (
+            <div className="loading">
+              <p>Loading chapter content...</p>
+            </div>
+          ) : chapters.length === 0 ? (
+            <div className="error">
+              <p>No chapters found. Please check /data directory.</p>
+            </div>
+          ) : currentChapter ? (
+            <ChapterViewer 
+              chapter={currentChapter} 
+              onBack={() => setCurrentChapter(null)} 
+            />
+          ) : (
+            <Dashboard 
+              chapters={chapters} 
+              onSelectChapter={setCurrentChapter} 
+              loading={loading}
+            />
+          )}
         </div>
-      </Router>
+      </div>
     </LearningContextProvider>
   );
 }
 
-export default App; 
+export default App;

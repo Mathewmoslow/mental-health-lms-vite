@@ -19,8 +19,8 @@ function App() {
       try {
         // Load individual chapter files
         const chapterPromises = [];
-        // Only try to load modules 1 and 2 which exist
-        for (let i = 1; i <= 2; i++) {
+        // Load modules 1 through 14
+        for (let i = 1; i <= 14; i++) {
           // Format the number with leading zero if needed
           const chapterNum = i < 10 ? `0${i}` : `${i}`;
           chapterPromises.push(

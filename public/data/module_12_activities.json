@@ -1,0 +1,174 @@
+{
+  "module_id": "M12",
+  "module_number": "12",
+  "module_title": "Stressors Affecting Cognition and Memory",
+  "activities": {
+    "interactive": [
+      {
+        "id": "match_game",
+        "type": "tile_match",
+        "title": "Module 12 Matching Game",
+        "instructions": "Flip cards to match key terms with their definitions.",
+        "pairs": [
+          {
+            "term": "Term A",
+            "definition": "Definition A"
+          },
+          {
+            "term": "Term B",
+            "definition": "Definition B"
+          },
+          {
+            "term": "Term C",
+            "definition": "Definition C"
+          }
+        ]
+      },
+      {
+        "id": "adventure_game",
+        "type": "choose_adventure",
+        "title": "Module 12 Adventure",
+        "instructions": "Choose responses to guide the scenario to a positive outcome.",
+        "steps": [
+          {
+            "text": "Scenario step 1 example.",
+            "choices": [
+              "Choice A",
+              "Choice B"
+            ]
+          },
+          {
+            "text": "Scenario step 2 example.",
+            "choices": [
+              "Choice C",
+              "Choice D"
+            ]
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "id": "quiz_1",
+        "title": "Stressors Affecting Cognition and Memory Quiz",
+        "questions": [
+          {
+            "id": "q1",
+            "text": "Sample question for Stressors Affecting Cognition and Memory?",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "correct": 1,
+            "rationale": "See chapter content for explanation."
+          },
+          {
+            "id": "q2",
+            "text": "Another key question?",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "correct": 2,
+            "rationale": "The correct answer relates to a major chapter idea."
+          }
+        ]
+      }
+    ],
+    "case_studies": [
+      {
+        "id": "case_1",
+        "title": "Stressors Affecting Cognition and Memory Case",
+        "scenario": "Brief scenario relevant to the chapter.",
+        "questions": [
+          {
+            "id": "cs1_q1",
+            "text": "What would be the best initial nursing action?",
+            "options": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ],
+            "correct": 0,
+            "rationale": "Refer to the chapter guidelines."
+          }
+        ]
+      }
+    ],
+    "simulations": [
+      {
+        "id": "sim_1",
+        "type": "communication_response",
+        "title": "Stressors Affecting Cognition and Memory Simulation",
+        "instructions": "Select the most therapeutic response.",
+        "scenarios": [
+          {
+            "id": "s1",
+            "patient_statement": "Example patient statement.",
+            "responses": [
+              {
+                "text": "Response A",
+                "therapeutic": true,
+                "feedback": "Good choice."
+              },
+              {
+                "text": "Response B",
+                "therapeutic": false,
+                "feedback": "Consider a different approach."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "assessment": {
+      "id": "chapter_assessment",
+      "title": "Module 12 Assessment",
+      "section_id": "M12",
+      "passing_score": 80,
+      "questions": [
+        {
+          "id": "a1",
+          "text": "Assessment question 1 for Stressors Affecting Cognition and Memory?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": 1,
+          "points": 1
+        },
+        {
+          "id": "a2",
+          "text": "Assessment question 2?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": 2,
+          "points": 1
+        },
+        {
+          "id": "a3",
+          "text": "Assessment question 3?",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct": 3,
+          "points": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "module_id": "M13",
+  "module_number": "13",
+  "module_title": "Stressors Affecting Abuse and Neglect Across the Lifespan",
+  "learning_objectives": [
+    "Identify clinical indicators of abuse across lifespan.",
+    "Implement mandatory reporting responsibilities effectively.",
+    "Develop immediate and long-term safety plans for abuse survivors."
+  ],
+  "key_focus_areas": [
+    "Recognizing abuse signs.",
+    "Legal and ethical responsibilities in abuse situations."
+  ],
+  "key_terms": [
+    "Intimate Partner Violence (IPV)",
+    "Child Abuse",
+    "Elder Abuse",
+    "Mandatory Reporting",
+    "Safety Planning"
+  ],
+  "sections": [
+    {
+      "section_id": "M13-S01",
+      "title": "Introduction",
+      "content": "Abuse and neglect occur at any age and often lead to lasting trauma. This overview defines key terms and sets the stage for screening."
+    },
+    {
+      "section_id": "M13-S02",
+      "title": "Physical Abuse Indicators",
+      "content": "Unexplained bruises, burns, or fractures may signal harm. Injuries at different healing stages warrant further questioning."
+    },
+    {
+      "section_id": "M13-S03",
+      "title": "Sexual Abuse Indicators",
+      "content": "Sexual abuse includes any non‑consensual act. Look for genital injuries, sexually transmitted infections, or fearful behavior."
+    },
+    {
+      "section_id": "M13-S04",
+      "title": "Emotional Abuse and Neglect",
+      "content": "Belittling, threats, and withholding basic needs erode self‑worth. Victims may appear anxious, depressed, or withdrawn."
+    },
+    {
+      "section_id": "M13-S05",
+      "title": "Vulnerable Populations",
+      "content": "Children, partners, and elders each present unique warning signs. Nurses consider developmental level and dependency."
+    },
+    {
+      "section_id": "M13-S06",
+      "title": "Cycle of Violence",
+      "content": "Tension building, acute violence, and reconciliation create repeating patterns that trap many survivors."
+    },
+    {
+      "section_id": "M13-S07",
+      "title": "Assessment and Documentation",
+      "content": "Use trauma‑informed questions, document objectively, and employ screening tools to uncover hidden abuse."
+    },
+    {
+      "section_id": "M13-S08",
+      "title": "Mandatory Reporting",
+      "content": "Laws require nurses to report certain abuse. Know local statutes and follow organizational policies."
+    },
+    {
+      "section_id": "M13-S09",
+      "title": "Safety Planning and Referrals",
+      "content": "Help survivors develop escape plans and link them with shelters, counseling, and legal resources."
+    },
+    {
+      "section_id": "M13-S10",
+      "title": "Nurse Self‑Care",
+      "content": "Caring for abuse survivors can be emotionally taxing. Seek supervision and practice self‑care to avoid burnout."
+    }
+  ]
+}

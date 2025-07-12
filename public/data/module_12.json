@@ -1,0 +1,73 @@
+{
+  "module_id": "M12",
+  "module_number": "12",
+  "module_title": "Stressors Affecting Cognition and Memory",
+  "learning_objectives": [
+    "Distinguish between delirium and dementia clinically.",
+    "Implement therapeutic interventions for cognitive disorders.",
+    "Recognize early signs of Alzheimer’s and related disorders."
+  ],
+  "key_focus_areas": [
+    "Delirium management (medical emergency).",
+    "Dementia supportive care strategies."
+  ],
+  "key_terms": [
+    "Delirium",
+    "Dementia",
+    "Alzheimer’s Disease",
+    "Cognitive Impairment",
+    "Sundowning"
+  ],
+  "sections": [
+    {
+      "section_id": "M12-S01",
+      "title": "Introduction and Overview",
+      "content": "Cognitive changes in older adults often stem from delirium or dementia. This section explains why early recognition is vital."
+    },
+    {
+      "section_id": "M12-S02",
+      "title": "Understanding Delirium",
+      "content": "Delirium develops quickly and usually has a medical cause such as infection or medication effects. Symptoms fluctuate throughout the day."
+    },
+    {
+      "section_id": "M12-S03",
+      "title": "Managing Delirium",
+      "content": "Treat underlying triggers, maintain orientation cues, and involve family to calm and reassure the patient."
+    },
+    {
+      "section_id": "M12-S04",
+      "title": "Dementia Syndromes",
+      "content": "Progressive decline in memory and thinking occurs in Alzheimer’s and related disorders. Onset is gradual and irreversible."
+    },
+    {
+      "section_id": "M12-S05",
+      "title": "Alzheimer’s Disease",
+      "content": "Plaques and tangles in the brain lead to memory loss, language problems, and eventually loss of independence."
+    },
+    {
+      "section_id": "M12-S06",
+      "title": "Screening and Diagnosis",
+      "content": "Tools like the Mini‑Mental State Exam help differentiate delirium from dementia and track progression."
+    },
+    {
+      "section_id": "M12-S07",
+      "title": "Pharmacologic Options",
+      "content": "Cholinesterase inhibitors and memantine may slow decline, while antipsychotics are used cautiously for agitation."
+    },
+    {
+      "section_id": "M12-S08",
+      "title": "Non‑Drug Support",
+      "content": "Consistent routines, environmental cues, and caregiver education promote safety and quality of life."
+    },
+    {
+      "section_id": "M12-S09",
+      "title": "Ethical and Safety Considerations",
+      "content": "Decision‑making capacity, wandering risks, and caregiver stress require ongoing assessment and planning."
+    },
+    {
+      "section_id": "M12-S10",
+      "title": "Conclusion",
+      "content": "Understanding cognitive disorders helps nurses tailor interventions and support families."
+    }
+  ]
+}

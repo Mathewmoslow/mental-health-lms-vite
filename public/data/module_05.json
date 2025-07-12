@@ -1,0 +1,74 @@
+{
+  "module_id": "M05",
+  "module_number": "05",
+  "module_title": "Conceptual Models and Therapeutic Approaches",
+  "learning_objectives": [
+    "Apply psychoanalytic, behavioral, cognitive-behavioral, and humanistic theories in nursing care.",
+    "Utilize Peplau’s Interpersonal Theory effectively.",
+    "Incorporate milieu therapy principles into practice."
+  ],
+  "key_focus_areas": [
+    "Behavioral modification and CBT.",
+    "Peplau’s phases of nurse-client interaction.",
+    "Milieu management and environment structure."
+  ],
+  "key_terms": [
+    "Psychoanalytic Theory",
+    "Cognitive Behavioral Therapy (CBT)",
+    "Peplau’s Interpersonal Theory",
+    "Milieu Therapy",
+    "Classical Conditioning"
+  ],
+  "sections": [
+    {
+      "section_id": "M05-S01",
+      "title": "Overview of Conceptual Models",
+      "content": "Psychiatric nursing draws from many schools of thought to understand mental illness and guide treatment. No single approach fits every person, so nurses learn the basic ideas behind each model and select strategies that meet the needs of the client before them. The rest of this module introduces key principles from psychodynamic, behavioral, cognitive, humanistic, and milieu traditions."
+    },
+    {
+      "section_id": "M05-S02",
+      "title": "Psychoanalytic Theory",
+      "content": "Sigmund Freud\u2019s psychoanalytic theory proposes that behavior is shaped by conflicts among the id, ego, and superego. To protect against anxiety, people unconsciously use defense mechanisms such as denial, repression, or projection. Therapy aims to make these hidden conflicts conscious through free association, dream interpretation, and analysis of transference. Nurses draw on this knowledge when observing patient behavior and maintaining professional boundaries."
+    },
+    {
+      "section_id": "M05-S03",
+      "title": "Erikson’s Developmental Stages",
+      "content": "Erik Erikson built upon psychoanalysis by focusing on how social challenges at each life stage influence personality. His eight stages range from trust versus mistrust in infancy to integrity versus despair in later adulthood. Knowing the developmental tasks and potential crises at each stage helps nurses tailor support to meet age‑specific needs."
+    },
+    {
+      "section_id": "M05-S04",
+      "title": "Peplau’s Interpersonal Theory",
+      "content": "Hildegard Peplau placed the nurse\u2013patient relationship at the center of psychiatric care. She described sequential phases\u2014orientation, working, and termination\u2014that guide communication and goal setting. Within these phases the nurse may serve as teacher, counselor, or advocate, always fostering collaboration so patients gain confidence and self-management skills."
+    },
+    {
+      "section_id": "M05-S05",
+      "title": "Behavioral Therapy Principles",
+      "content": "Behavioral therapy targets what can be seen and measured. Strategies such as positive reinforcement, modeling, and gradual exposure are used to decrease harmful behaviors and strengthen desirable ones. Nurses often carry out these plans on inpatient units or in community programs, reinforcing progress and adjusting steps based on each client\u2019s response."
+    },
+    {
+      "section_id": "M05-S06",
+      "title": "Cognitive-Behavioral Therapy",
+      "content": "Cognitive-behavioral therapy links how we think to how we act. By identifying and disputing distorted thoughts, clients learn to respond to situations more effectively. Sessions often include homework and real-world practice so that new skills are reinforced. CBT has strong research support for depression, anxiety, and other conditions."
+    },
+    {
+      "section_id": "M05-S07",
+      "title": "Humanistic Approach",
+      "content": "Humanistic theories emphasize each person\u2019s inherent potential for self-improvement. Carl Rogers taught that warm, empathetic listening and unconditional positive regard allow clients to explore feelings without fear of judgment. The nurse\u2019s authenticity and respect encourage patients to find their own solutions and strengths."
+    },
+    {
+      "section_id": "M05-S08",
+      "title": "Milieu Therapy",
+      "content": "In milieu therapy the entire environment becomes part of treatment. Consistent routines, clear expectations, and opportunities for group decision making create a sense of security. Staff model respectful interactions and encourage clients to practice new skills with peers, turning everyday activities into chances for growth."
+    },
+    {
+      "section_id": "M05-S09",
+      "title": "Integrating Models in Nursing Practice",
+      "content": "In real life, nurses rarely rely on a single theoretical approach. A care plan may combine behavioral techniques with empathetic listening or use CBT tools within the supportive framework of Peplau\u2019s relationship model. Mixing and matching ideas lets nurses respond flexibly to each client\u2019s preferences and goals."
+    },
+    {
+      "section_id": "M05-S10",
+      "title": "Conclusion",
+      "content": "A solid grasp of these conceptual models helps nurses choose interventions that fit each client\u2019s challenges and level of development. Applying the theories thoughtfully and reflecting on outcomes leads to more effective care and stronger therapeutic relationships."
+    }
+  ]
+}

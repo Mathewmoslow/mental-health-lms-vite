@@ -1,0 +1,73 @@
+{
+  "module_id": "M14",
+  "module_number": "14",
+  "module_title": "Stressors Affecting Families and Family Interventions",
+  "learning_objectives": [
+    "Differentiate between functional and dysfunctional family dynamics.",
+    "Implement effective family-centered nursing interventions.",
+    "Facilitate psychoeducational interventions to support families."
+  ],
+  "key_focus_areas": [
+    "Healthy vs. dysfunctional family dynamics.",
+    "Family therapeutic interventions and education."
+  ],
+  "key_terms": [
+    "Family Systems Theory",
+    "Genogram",
+    "Family Triangles",
+    "Enmeshment",
+    "Family Psychoeducation"
+  ],
+  "sections": [
+    {
+      "section_id": "M14-S01",
+      "title": "Introduction",
+      "content": "Families influence health outcomes and coping. Nurses work with whole families, not just individual patients."
+    },
+    {
+      "section_id": "M14-S02",
+      "title": "Family Systems Concepts",
+      "content": "The family operates as a system with roles, rules, and patterns. Understanding these concepts guides assessment."
+    },
+    {
+      "section_id": "M14-S03",
+      "title": "Functional vs Dysfunctional Dynamics",
+      "content": "Healthy families communicate openly and provide support. Dysfunctional patterns like enmeshment or triangulation create stress."
+    },
+    {
+      "section_id": "M14-S04",
+      "title": "Family Assessment Tools",
+      "content": "Genograms and ecomaps reveal relationships, resources, and potential problems."
+    },
+    {
+      "section_id": "M14-S05",
+      "title": "Communication and Conflict",
+      "content": "Teaching respectful communication and problem-solving helps families manage disagreements."
+    },
+    {
+      "section_id": "M14-S06",
+      "title": "Crisis and Trauma",
+      "content": "Addiction, violence, and sudden illness disrupt family functioning. Interventions focus on safety and connection."
+    },
+    {
+      "section_id": "M14-S07",
+      "title": "Chronic Illness and Caregiving",
+      "content": "Long-term conditions require role adjustments and community resources to prevent caregiver strain."
+    },
+    {
+      "section_id": "M14-S08",
+      "title": "End-of-Life and Grief",
+      "content": "During terminal illness, families need support with decision making, hospice referrals, and bereavement."
+    },
+    {
+      "section_id": "M14-S09",
+      "title": "Psychoeducation and Community Support",
+      "content": "Teaching families about mental illness, coping skills, and local programs fosters resilience."
+    },
+    {
+      "section_id": "M14-S10",
+      "title": "Conclusion",
+      "content": "By partnering with families, nurses promote healthier interactions and improve patient outcomes."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "module_id": "M04",
+  "module_number": "04",
+  "module_title": "Introduction to Mental Health",
+  "learning_objectives": [
+    "Describe the mental health-mental illness continuum.",
+    "Identify types and characteristics of crises.",
+    "Apply crisis intervention strategies effectively.",
+    "Understand ethical and legal responsibilities in mental health practice."
+  ],
+  "key_focus_areas": [
+    "Crisis management principles.",
+    "DSM-5 vs. nursing diagnoses.",
+    "Legal responsibilities (e.g., Baker Act, duty to warn)."
+  ],
+  "key_terms": [
+    "Crisis Intervention",
+    "Situational, Developmental, Adventitious Crisis",
+    "DSM-5",
+    "Duty to Warn",
+    "Baker Act"
+  ],
+  "sections": [
+    {
+      "section_id": "M04-S01",
+      "title": "Mental Health Continuum",
+      "content": "Mental health represents a spectrum from flourishing to serious disorder. People slide along this spectrum as stress, resilience, genetics, and social supports change. Nurses consider these influences to promote recovery and help clients return toward well-being."
+    },
+    {
+      "section_id": "M04-S02",
+      "title": "Influences on Mental Health",
+      "content": "Many elements shape mental wellness. Biological factors such as genetics or brain chemistry interact with life experiences like trauma, cultural beliefs, and the support systems available. Assessing both risk and protective factors allows nurses to tailor care for each individual and community."
+    },
+    {
+      "section_id": "M04-S03",
+      "title": "Crisis Intervention Fundamentals",
+      "content": "A crisis is a short period of severe disequilibrium when ordinary coping skills are overwhelmed. Nurses first ensure physical and emotional safety, then use active listening and practical problem solving to help clients regain control. Early intervention can turn a potential breakdown into an opportunity for growth."
+    },
+    {
+      "section_id": "M04-S04",
+      "title": "Types of Crises and Nursing Roles",
+      "content": "Crises fall into three broad categories. Developmental or maturational crises occur at life transitions such as starting a new family or entering retirement. Situational crises arise from sudden events like serious illness or job loss. Adventitious crises include community disasters or violent incidents. In all cases, nurses offer emotional first aid, assess coping resources, and link people with appropriate services."
+    },
+    {
+      "section_id": "M04-S05",
+      "title": "Models of Crisis Intervention",
+      "content": "Several structured models help nurses respond effectively when someone is in crisis. The SAFER-R sequence focuses on stabilizing the situation, acknowledging emotions, facilitating understanding, encouraging coping, promoting recovery, and referring for further help if necessary. Roberts\\u2019 seven-step method provides a similar checklist from assessment through follow up. Using these frameworks ensures no crucial step is missed under pressure."
+    },
+    {
+      "section_id": "M04-S06",
+      "title": "DSM-5 vs. Nursing Diagnoses",
+      "content": "The DSM-5 is used by clinicians to label mental disorders based on specific criteria. Nursing diagnoses, by contrast, identify how those disorders affect a person\u2019s day-to-day life and where nursing care can intervene. Blending the medical diagnosis with a nursing focus results in more complete and individualized care plans."
+    },
+    {
+      "section_id": "M04-S07",
+      "title": "Legal and Ethical Responsibilities",
+      "content": "Mental health practice carries specific legal duties. Nurses must understand statutes such as the Baker Act that govern involuntary treatment and the obligation to warn if a client threatens identifiable others. Ethical care also requires protecting confidentiality, respecting patient choices, and using the least restrictive interventions possible."
+    },
+    {
+      "section_id": "M04-S08",
+      "title": "Basic Neurobiology",
+      "content": "Brain function and behavior are closely linked. Imbalances in neurotransmitters like serotonin or dopamine contribute to disorders such as depression and schizophrenia. A basic grasp of these processes enables nurses to explain how medications work and why certain symptoms appear, promoting adherence and reducing fear."
+    },
+    {
+      "section_id": "M04-S09",
+      "title": "Community Resources and Prevention",
+      "content": "Mental health care does not end when a crisis resolves. Local clinics, peer groups, and hotlines provide ongoing support, while prevention programs educate the public about stress management and early signs of illness. Nurses guide clients to these resources so recovery can continue in the community."
+    },
+    {
+      "section_id": "M04-S10",
+      "title": "Conclusion",
+      "content": "Understanding the continuum of mental health and applying timely crisis care help nurses support clients at every stage of recovery. Awareness of legal obligations and the difference between medical and nursing diagnoses strengthens professional judgement and protects patient rights."
+    }
+  ]
+}

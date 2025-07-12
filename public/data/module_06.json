@@ -1,0 +1,65 @@
+{
+  "module_id": "M06",
+  "module_number": "06",
+  "module_title": "Substance Use and Abuse",
+  "learning_objectives": [
+    "Differentiate substance abuse, dependence, intoxication, and withdrawal.",
+    "Identify and manage alcohol withdrawal using the CIWA scale.",
+    "Implement appropriate nursing interventions for substance use disorders.",
+    "Recognize enabling behaviors and appropriate family interventions."
+  ],
+  "key_focus_areas": [
+    "Withdrawal management and pharmacological treatments.",
+    "Nursing responsibilities with impaired healthcare professionals.",
+    "Family dynamics and codependency."
+  ],
+  "key_terms": [
+    "Substance Abuse",
+    "CIWA Scale",
+    "Withdrawal Syndrome",
+    "Detoxification",
+    "Enabling and Codependency"
+  ],
+  "sections": [
+    {
+      "section_id": "M06-S1",
+      "title": "Overview of Substance Use Disorders",
+      "content": "Substance use disorders involve compulsive use despite harm. Diagnostic criteria in the DSM-5 describe impaired control, social impairment, risky use, and physical dependence. Tolerance and withdrawal indicate physiologic adaptation, while intoxication produces temporary behavioral changes. Understanding these patterns helps nurses screen and support patients effectively."
+    },
+    {
+      "section_id": "M06-S2",
+      "title": "Alcohol: Effects, Withdrawal, and CIWA",
+      "content": "Alcohol depresses the central nervous system and can damage multiple organs with long-term use. Acute intoxication causes slurred speech, incoordination, and impaired judgment. Withdrawal ranges from tremors to life-threatening delirium tremens. The CIWA-Ar tool guides benzodiazepine dosing during detoxification and ensures safe monitoring."
+    },
+    {
+      "section_id": "M06-S3",
+      "title": "Opioid Misuse and Withdrawal",
+      "content": "Opioids act on mu receptors to relieve pain and create euphoria, but high doses slow breathing and may lead to overdose. Naloxone reverses acute toxicity. Withdrawal causes flu-like symptoms—muscle aches, diarrhea, and anxiety—which, while rarely fatal, drive ongoing use. Medication-assisted treatment with methadone or buprenorphine reduces cravings and supports recovery."
+    },
+    {
+      "section_id": "M06-S4",
+      "title": "Stimulant Use: Cocaine and Methamphetamine",
+      "content": "Stimulants increase dopamine and norepinephrine, producing intense energy and euphoria. Chronic use can result in paranoia, cardiac problems, and severe weight loss. Crash and withdrawal symptoms include fatigue, depression, and strong cravings. Nursing care focuses on managing complications and connecting clients with behavioral therapies."
+    },
+    {
+      "section_id": "M06-S5",
+      "title": "Sedatives and Hypnotics",
+      "content": "Benzodiazepines and other sedatives slow brain activity and can lead to dependence when used regularly. Intoxication manifests as drowsiness and poor coordination, while abrupt cessation can cause seizures. Tapering doses under medical supervision prevents dangerous withdrawal reactions."
+    },
+    {
+      "section_id": "M06-S6",
+      "title": "Other Substances",
+      "content": "Hallucinogens, inhalants, and cannabis each produce unique psychoactive effects. Hallucinogens alter perception and may trigger anxiety or flashbacks. Inhalants damage organs through toxic fumes. Cannabis intoxication commonly causes relaxation and altered sensory experiences, though chronic heavy use can impair cognition."
+    },
+    {
+      "section_id": "M06-S7",
+      "title": "Nursing Interventions",
+      "content": "Nurses screen for substance use, monitor withdrawal symptoms, and administer medications to ease detoxification. Motivational interviewing encourages readiness for change, while relapse prevention plans promote long-term success. Collaboration with interdisciplinary treatment programs is essential for comprehensive care."
+    },
+    {
+      "section_id": "M06-S8",
+      "title": "Family Considerations and Impaired Professionals",
+      "content": "Families may inadvertently enable continued use through codependent behaviors. Education and support groups help relatives set boundaries and encourage treatment. Nurses must also be aware of policies for intervening when a colleague shows signs of impairment, balancing patient safety with compassionate assistance."
+    }
+  ]
+}

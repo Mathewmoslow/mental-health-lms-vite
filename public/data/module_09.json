@@ -1,0 +1,70 @@
+{
+  "module_id": "M09",
+  "module_number": "09",
+  "module_title": "Stressors Affecting Alterations Across the Lifespan",
+  "learning_objectives": [
+    "Identify mental health disorders in children and adolescents.",
+    "Recognize signs of eating disorders and appropriate nursing interventions.",
+    "Differentiate delirium from dementia in older adults.",
+    "Implement nursing strategies tailored to developmental stages."
+  ],
+  "key_focus_areas": [
+    "Developmental considerations across lifespan.",
+    "Eating disorders medical stabilization.",
+    "Elderly cognitive assessment and intervention."
+  ],
+  "key_terms": [
+    "Autism Spectrum Disorder (ASD)",
+    "Attention Deficit Hyperactivity Disorder (ADHD)",
+    "Anorexia and Bulimia Nervosa",
+    "Delirium vs. Dementia",
+    "Alzheimer’s Disease"
+  ],
+  "sections": [
+    {
+      "section_id": "M09-S01",
+      "title": "Introduction",
+      "content": "Mental health needs change from childhood through old age. Nurses adapt assessments and interventions to each developmental stage."
+    },
+    {
+      "section_id": "M09-S02",
+      "title": "Childhood Disorders",
+      "content": "Neurodevelopmental issues like autism and ADHD often emerge early. Early intervention and family support improve outcomes."
+    },
+    {
+      "section_id": "M09-S03",
+      "title": "Adolescent Concerns",
+      "content": "Teens may face eating disorders, substance use, and mood changes. Building rapport and involving families are key."
+    },
+    {
+      "section_id": "M09-S04",
+      "title": "Adult Stressors",
+      "content": "Adults experience work pressures, relationship issues, and major life events. Stress management and counseling can prevent deterioration."
+    },
+    {
+      "section_id": "M09-S05",
+      "title": "Elderly Mental Health",
+      "content": "Dementia, depression, and delirium are common later-life concerns. Assess cognition and medication effects carefully."
+    },
+    {
+      "section_id": "M09-S06",
+      "title": "Medication Across the Lifespan",
+      "content": "Dosages and side effects vary with age. Monitor children for growth impacts and older adults for polypharmacy risks."
+    },
+    {
+      "section_id": "M09-S07",
+      "title": "Family and Caregiver Roles",
+      "content": "Education and respite services support caregivers and reduce burnout at every stage of life."
+    },
+    {
+      "section_id": "M09-S08",
+      "title": "Communication Strategies",
+      "content": "Use age‑appropriate language and involve caregivers when teaching or providing discharge instructions."
+    },
+    {
+      "section_id": "M09-S09",
+      "title": "Conclusion",
+      "content": "Developmental awareness helps nurses tailor mental health care to meet unique needs across the lifespan."
+    }
+  ]
+}

@@ -384,7 +384,7 @@ const TermMatch = ({ activity, moduleNumber, activityType }) => {
               }}
               onDragOver={(e) => e.preventDefault()}
             >
-              {Object.entries(matches).find(([_, def]) => def === item.definition)?.[0] || item.definition}
+              {Object.entries(matches).find(entry => entry[1] === item.definition)?.[0] || item.definition}
             </div>
           ))}
         </div>

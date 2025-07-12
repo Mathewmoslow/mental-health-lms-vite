@@ -1,0 +1,75 @@
+{
+  "module_id": "M07",
+  "module_number": "07",
+  "module_title": "Stressors Affecting Thought Processes and Perceptions",
+  "learning_objectives": [
+    "Differentiate between schizophrenia and other psychotic disorders.",
+    "Identify and manage positive, negative, and cognitive symptoms of schizophrenia.",
+    "Understand psychopharmacology of antipsychotic medications.",
+    "Implement effective interventions for acute psychotic episodes."
+  ],
+  "key_focus_areas": [
+    "Recognizing psychotic symptoms.",
+    "Medication side effects and management.",
+    "Safety in psychosis management."
+  ],
+  "key_terms": [
+    "Schizophrenia",
+    "Positive and Negative Symptoms",
+    "Hallucinations",
+    "Delusions",
+    "Atypical vs. Typical Antipsychotics"
+  ],
+  "sections": [
+    {
+      "section_id": "M07-S01",
+      "title": "Introduction and Overview",
+      "content": "Psychotic disorders like schizophrenia involve a break with reality. This section introduces key diagnoses and the hallmark symptoms that define them."
+    },
+    {
+      "section_id": "M07-S02",
+      "title": "Positive Symptoms",
+      "content": "Delusions, hallucinations, and disorganized behavior are additions to normal experience. Recognizing these signs helps nurses ensure safety and respond therapeutically."
+    },
+    {
+      "section_id": "M07-S03",
+      "title": "Negative and Cognitive Symptoms",
+      "content": "Blunted affect, avolition, memory problems, and poor concentration reduce functioning and often persist beyond acute episodes."
+    },
+    {
+      "section_id": "M07-S04",
+      "title": "Neurobiological Insights",
+      "content": "Dopamine dysregulation and other neurotransmitter changes underlie many psychotic symptoms. Antipsychotic medications target these pathways."
+    },
+    {
+      "section_id": "M07-S05",
+      "title": "Medication Basics",
+      "content": "Typical and atypical antipsychotics reduce positive symptoms but carry side effects like EPS or metabolic changes. Monitoring and education promote adherence."
+    },
+    {
+      "section_id": "M07-S06",
+      "title": "Nursing Care During Acute Psychosis",
+      "content": "During hallucinations or severe delusions, maintain calm communication, reduce stimulation, and ensure the patient and others remain safe."
+    },
+    {
+      "section_id": "M07-S07",
+      "title": "Long-Term Management",
+      "content": "After stabilization, supportive therapy, community programs, and medication help prevent relapse and foster recovery."
+    },
+    {
+      "section_id": "M07-S08",
+      "title": "Family Education and Support",
+      "content": "Families benefit from learning about early warning signs, medication management, and ways to encourage treatment engagement."
+    },
+    {
+      "section_id": "M07-S09",
+      "title": "Legal and Ethical Considerations",
+      "content": "Involuntary treatment laws protect patients and the public when psychosis impairs judgment. Nurses uphold rights while advocating for least restrictive care."
+    },
+    {
+      "section_id": "M07-S10",
+      "title": "Conclusion",
+      "content": "Understanding psychotic disorders equips nurses to intervene compassionately and effectively across care settings."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "module_id": "M10",
+  "module_number": "10",
+  "module_title": "Stressors Affecting Levels of Anxiety",
+  "learning_objectives": [
+    "Identify and differentiate anxiety disorders and associated clinical symptoms.",
+    "Recognize adaptive and maladaptive defense mechanisms.",
+    "Apply therapeutic interventions effectively for anxiety management."
+  ],
+  "key_focus_areas": [
+    "Anxiety management techniques.",
+    "Cognitive-behavioral strategies.",
+    "Recognizing dissociative and somatic disorders."
+  ],
+  "key_terms": [
+    "Generalized Anxiety Disorder (GAD)",
+    "Panic Disorder",
+    "Obsessive-Compulsive Disorder (OCD)",
+    "Dissociative Disorders",
+    "Somatic Symptom Disorder"
+  ],
+  "sections": [
+    {
+      "section_id": "M10-S01",
+      "title": "Introduction",
+      "content": "Anxiety becomes disordered when worry or fear interferes with daily life. Nurses help patients recognize symptoms and apply coping strategies."
+    },
+    {
+      "section_id": "M10-S02",
+      "title": "Generalized Anxiety Disorder",
+      "content": "GAD involves persistent, excessive worry. Teach relaxation techniques and evaluate the need for medication."
+    },
+    {
+      "section_id": "M10-S03",
+      "title": "Panic Disorder and Phobias",
+      "content": "Sudden panic attacks or intense fears of specific situations can disrupt functioning. Breathing control and gradual exposure therapy are helpful."
+    },
+    {
+      "section_id": "M10-S04",
+      "title": "Obsessive-Compulsive and Related Disorders",
+      "content": "Obsessions and compulsions consume time and cause distress. Encourage therapy and medication adherence."
+    },
+    {
+      "section_id": "M10-S05",
+      "title": "Trauma-Related Anxiety",
+      "content": "Post-traumatic stress disorder involves re-experiencing trauma and heightened arousal. Support grounding techniques and trauma-informed care."
+    },
+    {
+      "section_id": "M10-S06",
+      "title": "Treatment Approaches",
+      "content": "SSRIs, benzodiazepines, and CBT remain first-line treatments. Teach about side effects and the importance of regular practice of coping skills."
+    },
+    {
+      "section_id": "M10-S07",
+      "title": "Crisis Intervention",
+      "content": "During severe anxiety or panic, stay with the patient, speak calmly, and reduce environmental stimuli."
+    },
+    {
+      "section_id": "M10-S08",
+      "title": "Patient Education",
+      "content": "Help clients identify triggers, practice relaxation exercises, and connect with support groups or counseling."
+    },
+    {
+      "section_id": "M10-S09",
+      "title": "Conclusion",
+      "content": "With empathy and evidence-based interventions, nurses can reduce anxiety and improve quality of life."
+    }
+  ]
+}

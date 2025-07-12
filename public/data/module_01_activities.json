@@ -5,18 +5,46 @@
   "activities": {
     "interactive": [
       {
-        "id": "activity_1",
-        "type": "multiple_choice",
-        "title": "Therapeutic Communication",
-        "question": "What is the most appropriate therapeutic response to a patient saying 'Nobody understands what I'm going through'?",
-        "options": [
-          "That must feel very isolating. Can you tell me more about what you're experiencing?",
-          "I understand exactly how you feel.",
-          "You should try to be more positive.",
-          "Let's talk about something else."
-        ],
-        "correct": 0,
-        "feedback": "Validating feelings and encouraging expression is the most therapeutic approach."
+        "id": "match_game",
+        "type": "tile_match",
+        "title": "Module 01 Matching Game",
+        "instructions": "Flip cards to match key terms with their definitions.",
+        "pairs": [
+          {
+            "term": "Term A",
+            "definition": "Definition A"
+          },
+          {
+            "term": "Term B",
+            "definition": "Definition B"
+          },
+          {
+            "term": "Term C",
+            "definition": "Definition C"
+          }
+        ]
+      },
+      {
+        "id": "adventure_game",
+        "type": "choose_adventure",
+        "title": "Module 01 Adventure",
+        "instructions": "Choose responses to guide the scenario to a positive outcome.",
+        "steps": [
+          {
+            "text": "Scenario step 1 example.",
+            "choices": [
+              "Choice A",
+              "Choice B"
+            ]
+          },
+          {
+            "text": "Scenario step 2 example.",
+            "choices": [
+              "Choice C",
+              "Choice D"
+            ]
+          }
+        ]
       }
     ],
     "quizzes": [
